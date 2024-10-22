@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="dependency injection in person class of strings and other values from properties file - NOT HARDCODED VARIANT of usage!!!">
-      <change afterPath="$PROJECT_DIR$/resources/applicationContextPrototype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring_introduction/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spring_introduction/Test7.java" afterDir="false" />
+    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="added singletone and prototype approaches of creating beans in a project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/applicationContextPrototype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContextPrototype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Test7.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,7 @@
       <recent name="D:\JAVA_LEARN\ilc_spring_probes_control\src\spring_introduction" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test7">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_introduction.Test1" />
       <module name="ilc_spring_probes_control" />
@@ -129,8 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test7" />
+      <module name="ilc_spring_probes_control" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring_introduction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test7" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test1" />
@@ -161,7 +177,7 @@
       <workItem from="1729497924341" duration="1591000" />
       <workItem from="1729500492675" duration="3191000" />
       <workItem from="1729513470997" duration="1966000" />
-      <workItem from="1729569227142" duration="5720000" />
+      <workItem from="1729569227142" duration="8408000" />
     </task>
     <task id="LOCAL-00001" summary="dependency injection added to a project">
       <option name="closed" value="true" />
@@ -195,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729571304259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added singletone and prototype approaches of creating beans in a project">
+      <option name="closed" value="true" />
+      <created>1729580189705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729580189705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +231,7 @@
     <MESSAGE value="dependency injection from setter added to a project" />
     <MESSAGE value="dependency injection in person class of strings and other values - hardcocing variant" />
     <MESSAGE value="dependency injection in person class of strings and other values from properties file - NOT HARDCODED VARIANT of usage!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency injection in person class of strings and other values from properties file - NOT HARDCODED VARIANT of usage!!!" />
+    <MESSAGE value="added singletone and prototype approaches of creating beans in a project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added singletone and prototype approaches of creating beans in a project" />
   </component>
 </project>
