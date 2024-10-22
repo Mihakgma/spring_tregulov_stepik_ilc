@@ -6,6 +6,9 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:myApp.properties"/>
+
     <bean id = "myPet"
           class="spring_introduction.Cat">
     </bean>
@@ -15,7 +18,10 @@
 <!--        <constructor-arg ref="myPet"/>-->
 <!--        DI with setter-->
           <property name="pet" ref="myPet"/>
-          <property name="lastName" value="Tabakaev"/>
-          <property name="age" value="38"/>
+<!--          <property name="lastName" value="Tabakaev"/>-->
+<!--        get data from my application file with properties instead of hardcoded way of getting value-->
+          <property name="lastName" value="${person.lastName}"/>
+<!--          <property name="age" value="38"/>-->
+          <property name="age" value="${person.age}"/>
     </bean>
 </beans>
