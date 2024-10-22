@@ -9,6 +9,8 @@ public class Test5 {
             // dependency injection in action!!!
             Person person = (Person) context.getBean("myPerson");
             person.callYourPet();
+            // DI with values of object parameters!
+            System.out.println(person);
             // if we don't use try-with resources
             // we need to close context with this construction
             // context.close();

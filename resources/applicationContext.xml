@@ -15,5 +15,7 @@
 <!--        <constructor-arg ref="myPet"/>-->
 <!--        DI with setter-->
           <property name="pet" ref="myPet"/>
+          <property name="lastName" value="Tabakaev"/>
+          <property name="age" value="38"/>
     </bean>
 </beans>

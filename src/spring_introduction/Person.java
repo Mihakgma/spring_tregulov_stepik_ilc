@@ -1,10 +1,14 @@
 package spring_introduction;
 
 public class Person {
+    private Pet pet;
+    private String lastName;
+    private int age;
+
     Person() {
         System.out.println(this.getClass().getSimpleName() + " has been created");
     }
-    private Pet pet;
+
 
     public Person(Pet pet) {
         this.pet = pet;
@@ -16,9 +20,33 @@ public class Person {
         System.out.println(pet + " pet set");
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public void callYourPet() {
         System.out.println("Hello, my lovely Pet!");
         pet.say();
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "pet=" + pet +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
