@@ -9,5 +9,6 @@ public class ConfigWithAnnotation1 {
         );
         Person person = context.getBean("personBean", Person.class);
         person.callYourPet();
+        context.close();
     }
 }
