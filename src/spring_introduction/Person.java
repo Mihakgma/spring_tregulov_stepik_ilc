@@ -7,7 +7,8 @@ import org.springframework.stereotype.Component;
 @Component("personBean")
 public class Person {
 //    @Qualifier("pet")
-    @Autowired
+    @Autowired // field injection is not recommended!!!
+    @Qualifier("catBean")
     private Pet pet;
     private String lastName;
     private int age;
