@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-                           http://www.springframework.org/schema/beans/spring-beans.xsd
-                           http://www.springframework.org/schema/context
-                           http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--                           http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--                           http://www.springframework.org/schema/context-->
+<!--                           http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <context:property-placeholder location="classpath:myApp.properties"/>
+<!--    <context:property-placeholder location="classpath:myApp.properties"/>-->
 
-    <bean id="myPet"
-          class="spring_introduction.Cat">
-    </bean>
-    <bean id="myPerson"
-          class="spring_introduction.Person">
-        <!--        DI with constructor-->
-        <!--        <constructor-arg ref="myPet"/>-->
-        <!--        DI with setter-->
-        <property name="pet" ref="myPet"/>
-        <!--          <property name="lastName" value="Tabakaev"/>-->
-        <!--        get data from my application file with properties instead of hardcoded way of getting value-->
-        <property name="lastName" value="${person.lastName}"/>
-        <!--          <property name="age" value="38"/>-->
-        <property name="age" value="${person.age}"/>
-    </bean>
-</beans>
+<!--    <bean id="myPet"-->
+<!--          class="spring_introduction.Cat">-->
+<!--    </bean>-->
+<!--    <bean id="myPerson"-->
+<!--          class="spring_introduction.Person">-->
+<!--        &lt;!&ndash;        DI with constructor&ndash;&gt;-->
+<!--        &lt;!&ndash;        <constructor-arg ref="myPet"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        DI with setter&ndash;&gt;-->
+<!--        <property name="pet" ref="myPet"/>-->
+<!--        &lt;!&ndash;          <property name="lastName" value="Tabakaev"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;        get data from my application file with properties instead of hardcoded way of getting value&ndash;&gt;-->
+<!--        <property name="lastName" value="${person.lastName}"/>-->
+<!--        &lt;!&ndash;          <property name="age" value="38"/>&ndash;&gt;-->
+<!--        <property name="age" value="${person.age}"/>-->
+<!--    </bean>-->
+<!--</beans>-->
