@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class SamplesAcceptanceDepartment {
 
     public void registerApplication() {
-        System.out.println("application registered");
+        System.out.println("Application registered");
     }
 
 }
