@@ -8,10 +8,10 @@
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.username">bestuser</property>
         <property name="connection.password">bestuser</property>
-
         <property name="current_session_context_class">thread</property>
         <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="show_sql">true</property>
-
+        <mapping class="hibernate_test.entity.Employee"/> <!-- Replace with your entity class -->
     </session-factory>
+
 </hibernate-configuration>

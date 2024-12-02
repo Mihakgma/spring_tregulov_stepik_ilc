@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="added singletone and prototype approaches of creating beans in a project">
+    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="postgres db has been successfully connected to a project :-)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/applicationContextPrototype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContextPrototype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spring_introduction/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spring_introduction/Test7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ConfigWithAnnotation1.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ScopeTest.executor": "Run",
     "Application.Test1.executor": "Run",
     "Application.Test2.executor": "Run",
     "Application.Test3.executor": "Run",
@@ -52,21 +58,28 @@
     "Application.Test5.executor": "Run",
     "Application.Test6.executor": "Run",
     "Application.Test7.executor": "Run",
+    "Application.TestDB1.executor": "Run",
+    "Application.TestDepts.executor": "Run",
+    "Application.aop.Test1.executor": "Run",
+    "Application.hibernate_test.Test1.executor": "Run",
+    "Application.hibernate_test.entity.Test1.executor": "Run",
+    "Application.src.hibernate_test.Test1.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA_LEARN/ilc_spring_probes_control/resources",
+    "last_directory_selection": "D:/JAVA_LEARN/ilc_spring_probes_control/src/hibernate_test",
+    "last_opened_file_path": "D:/JAVA_LEARN/ilc_spring_probes_control/src/main/java/hibernate_test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "project.kotlinCompiler",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,84 +88,22 @@
       <recent name="D:\JAVA_LEARN\ilc_spring_probes_control\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA_LEARN\ilc_spring_probes_control\src\main\resources" />
       <recent name="D:\JAVA_LEARN\ilc_spring_probes_control\src\spring_introduction" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test7">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test1" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="hibernate_test.Main" />
       <module name="ilc_spring_probes_control" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/java/hibernate_test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test2" />
-      <module name="ilc_spring_probes_control" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test5" />
-      <module name="ilc_spring_probes_control" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test6" />
-      <module name="ilc_spring_probes_control" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.Test7" />
-      <module name="ilc_spring_probes_control" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring_introduction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Test7" />
-        <item itemvalue="Application.Test6" />
-        <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test2" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -177,7 +128,27 @@
       <workItem from="1729497924341" duration="1591000" />
       <workItem from="1729500492675" duration="3191000" />
       <workItem from="1729513470997" duration="1966000" />
-      <workItem from="1729569227142" duration="8408000" />
+      <workItem from="1729569227142" duration="9749000" />
+      <workItem from="1729675640192" duration="636000" />
+      <workItem from="1729702915177" duration="688000" />
+      <workItem from="1729830582223" duration="130000" />
+      <workItem from="1730270605209" duration="1211000" />
+      <workItem from="1730428382731" duration="992000" />
+      <workItem from="1731466224226" duration="2918000" />
+      <workItem from="1731572136519" duration="783000" />
+      <workItem from="1731984572804" duration="6359000" />
+      <workItem from="1732093498129" duration="3627000" />
+      <workItem from="1732521695665" duration="5680000" />
+      <workItem from="1732589210439" duration="2790000" />
+      <workItem from="1732779802243" duration="80000" />
+      <workItem from="1732941555231" duration="1561000" />
+      <workItem from="1733108060555" duration="6130000" />
+      <workItem from="1733122446184" duration="98000" />
+      <workItem from="1733122557229" duration="70000" />
+      <workItem from="1733122652281" duration="895000" />
+      <workItem from="1733123562883" duration="652000" />
+      <workItem from="1733124278677" duration="741000" />
+      <workItem from="1733126267500" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="dependency injection added to a project">
       <option name="closed" value="true" />
@@ -219,7 +190,87 @@
       <option name="project" value="LOCAL" />
       <updated>1729580189705</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init &amp; destroy methods have been added to Cat (singletone scope) &amp; Person (prototype scope) classes">
+      <option name="closed" value="true" />
+      <created>1729583183180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729583183180</updated>
+    </task>
+    <task id="LOCAL-00007" summary="autowired annotation usage for constructor">
+      <option name="closed" value="true" />
+      <created>1731987994033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731987994033</updated>
+    </task>
+    <task id="LOCAL-00008" summary="autowired annotation usage for setter">
+      <option name="closed" value="true" />
+      <created>1731988264427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731988264427</updated>
+    </task>
+    <task id="LOCAL-00009" summary="autowired annotation usage for field">
+      <option name="closed" value="true" />
+      <created>1731988649255</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731988649255</updated>
+    </task>
+    <task id="LOCAL-00010" summary="qualifier annotation usage for field, constructor (inside ()) and setters...">
+      <option name="closed" value="true" />
+      <created>1731989140363</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731989140363</updated>
+    </task>
+    <task id="LOCAL-00011" summary="property file added to ConfigWithAnnotation1 file...">
+      <option name="closed" value="true" />
+      <created>1731989736853</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731989736853</updated>
+    </task>
+    <task id="LOCAL-00012" summary="aop files and folders initiated in a project...">
+      <option name="closed" value="true" />
+      <created>1732094113925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732094113925</updated>
+    </task>
+    <task id="LOCAL-00013" summary="in pom aspectjweaver dependency added, added AOP class to invoice on an event (method) invoicing... config file in java file">
+      <option name="closed" value="true" />
+      <created>1732097459953</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732097459953</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new AOP code added to a project...">
+      <option name="closed" value="true" />
+      <created>1732527924039</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732527924039</updated>
+    </task>
+    <task id="LOCAL-00015" summary="postgres db has been successfully connected to a project :-)">
+      <option name="closed" value="true" />
+      <created>1732943043431</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732943043431</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +283,16 @@
     <MESSAGE value="dependency injection in person class of strings and other values - hardcocing variant" />
     <MESSAGE value="dependency injection in person class of strings and other values from properties file - NOT HARDCODED VARIANT of usage!!!" />
     <MESSAGE value="added singletone and prototype approaches of creating beans in a project" />
-    <option name="LAST_COMMIT_MESSAGE" value="added singletone and prototype approaches of creating beans in a project" />
+    <MESSAGE value="init &amp; destroy methods have been added to Cat (singletone scope) &amp; Person (prototype scope) classes" />
+    <MESSAGE value="autowired annotation usage for constructor" />
+    <MESSAGE value="autowired annotation usage for setter" />
+    <MESSAGE value="autowired annotation usage for field" />
+    <MESSAGE value="qualifier annotation usage for field, constructor (inside ()) and setters..." />
+    <MESSAGE value="property file added to ConfigWithAnnotation1 file..." />
+    <MESSAGE value="aop files and folders initiated in a project..." />
+    <MESSAGE value="in pom aspectjweaver dependency added, added AOP class to invoice on an event (method) invoicing... config file in java file" />
+    <MESSAGE value="new AOP code added to a project..." />
+    <MESSAGE value="postgres db has been successfully connected to a project :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="postgres db has been successfully connected to a project :-)" />
   </component>
 </project>
