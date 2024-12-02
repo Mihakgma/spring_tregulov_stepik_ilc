@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="postgres db has been successfully connected to a project :-)">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="267f1af4-bcba-4ba1-bcb1-18b4ea1ca044" name="Changes" comment="все пропало, шеф...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate_test/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate_test/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +142,7 @@
       <workItem from="1733122652281" duration="895000" />
       <workItem from="1733123562883" duration="652000" />
       <workItem from="1733124278677" duration="741000" />
-      <workItem from="1733126267500" duration="1523000" />
+      <workItem from="1733126267500" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="dependency injection added to a project">
       <option name="closed" value="true" />
@@ -270,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732943043431</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="все пропало, шеф...">
+      <option name="closed" value="true" />
+      <created>1733127910455</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733127910455</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +295,7 @@
     <MESSAGE value="in pom aspectjweaver dependency added, added AOP class to invoice on an event (method) invoicing... config file in java file" />
     <MESSAGE value="new AOP code added to a project..." />
     <MESSAGE value="postgres db has been successfully connected to a project :-)" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgres db has been successfully connected to a project :-)" />
+    <MESSAGE value="все пропало, шеф..." />
+    <option name="LAST_COMMIT_MESSAGE" value="все пропало, шеф..." />
   </component>
 </project>
